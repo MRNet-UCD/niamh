@@ -49,7 +49,7 @@ def load_cases(train=True, n=None):
 cases = load_cases(train=True, n=1130)
 
 
-for i in range (0,1300):
+for i in range (0,1130):
     print(i)
     if len(str(i)) == 1:
         string = '000'+str(i)
